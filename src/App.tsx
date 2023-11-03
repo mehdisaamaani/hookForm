@@ -1,12 +1,10 @@
 import React from 'react';
 import FormControlls from './components/FormControlls';
-
+import './App.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-   <FormControlls/>
-      </header>
+    <div className="form-main">
+      <FormControlls />
     </div>
   );
 }
